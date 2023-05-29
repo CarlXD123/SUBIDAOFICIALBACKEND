@@ -1,0 +1,20 @@
+export interface mEmployee {
+    id: number,
+    dni: string,
+    admissionDate: string,
+    birthDate: string,
+    name: string,
+    lastNameP: string,
+    lastNameM: string,
+    gender: string,
+    civilStatus: string,
+    phoneNumber: string,
+    tlfNumber: string,
+    digitalSignatureUrl: string,
+    tuitionNumber: string,
+    tuitionNumber2: string,
+    address: string,
+    referencePoint: string,
+    typeDirection: string,
+    status: string
+}

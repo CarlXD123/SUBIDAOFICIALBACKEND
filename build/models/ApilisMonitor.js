@@ -1,0 +1,57 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const sequelize_1 = require("sequelize");
+const config_database_1 = __importDefault(require("../config/config.database"));
+const ApilisMonitor = config_database_1.default.define("ApilisMonitors", {
+    codBaja: sequelize_1.DataTypes.INTEGER,
+    codeApi: sequelize_1.DataTypes.STRING,
+    idPatient: sequelize_1.DataTypes.INTEGER,
+    idExam: sequelize_1.DataTypes.INTEGER,
+    field01: sequelize_1.DataTypes.STRING,
+    val01: sequelize_1.DataTypes.STRING,
+    val02: sequelize_1.DataTypes.STRING,
+    val03: sequelize_1.DataTypes.STRING,
+    val04: sequelize_1.DataTypes.STRING,
+    val05: sequelize_1.DataTypes.STRING,
+    val06: sequelize_1.DataTypes.STRING,
+    val07: sequelize_1.DataTypes.STRING,
+    val08: sequelize_1.DataTypes.STRING,
+    val09: sequelize_1.DataTypes.STRING,
+    val10: sequelize_1.DataTypes.STRING,
+    val11: sequelize_1.DataTypes.STRING,
+    val12: sequelize_1.DataTypes.STRING,
+    val13: sequelize_1.DataTypes.STRING,
+    val14: sequelize_1.DataTypes.STRING,
+    val15: sequelize_1.DataTypes.STRING,
+    val16: sequelize_1.DataTypes.STRING,
+    val17: sequelize_1.DataTypes.STRING,
+    val18: sequelize_1.DataTypes.STRING,
+    val19: sequelize_1.DataTypes.STRING,
+    val20: sequelize_1.DataTypes.STRING,
+    val21: sequelize_1.DataTypes.STRING,
+    val22: sequelize_1.DataTypes.STRING,
+    val23: sequelize_1.DataTypes.STRING,
+    val24: sequelize_1.DataTypes.STRING,
+    val25: sequelize_1.DataTypes.STRING,
+    val26: sequelize_1.DataTypes.STRING,
+    val27: sequelize_1.DataTypes.STRING,
+    val28: sequelize_1.DataTypes.STRING,
+    val29: sequelize_1.DataTypes.STRING,
+    val30: sequelize_1.DataTypes.STRING,
+    val31: sequelize_1.DataTypes.STRING,
+    val32: sequelize_1.DataTypes.STRING,
+    val33: sequelize_1.DataTypes.STRING,
+    val34: sequelize_1.DataTypes.STRING,
+    val35: sequelize_1.DataTypes.STRING,
+    val36: sequelize_1.DataTypes.STRING,
+    val37: sequelize_1.DataTypes.STRING,
+    val38: sequelize_1.DataTypes.STRING,
+    val39: sequelize_1.DataTypes.STRING,
+    val40: sequelize_1.DataTypes.STRING,
+    obse: sequelize_1.DataTypes.STRING,
+    status: sequelize_1.DataTypes.STRING,
+});
+exports.default = ApilisMonitor;
