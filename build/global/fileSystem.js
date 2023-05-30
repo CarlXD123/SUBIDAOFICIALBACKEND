@@ -47,7 +47,7 @@ function saveFile(originalAbsolutePath, typeFile) {
     //console.log(newAbsolutePath);
     var base64Data = originalAbsolutePath.base64.split(',')[1];
     fs.writeFileSync(newAbsolutePath, base64Data, 'base64');
-    const publicUrl = `http://${process.env.URL}:${process.env.PORT}/${url}`;
+    const publicUrl = `${process.env.URL}/${url}`;
     return publicUrl;
 }
 exports.saveFile = saveFile;
